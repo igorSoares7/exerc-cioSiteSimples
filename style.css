@@ -1,10 +1,18 @@
-body{
+body {
     background-color: whitesmoke;
     margin: 0px;
-} main {
+}
+
+article{
+    padding-top: 30px;
+    padding-right: 60%;
+    padding-left: 30px;
+}
+main {
     padding: 30px 200px;
 }
-a{
+
+a {
     text-decoration: none;
     color: whitesmoke;
     padding-left: 20px;
@@ -13,16 +21,21 @@ a{
 
 }
 
-a:hover{
+a:hover {
     color: gray;
 }
 
-button{
+button {
     color: whitesmoke;
-    padding: 10px;
+    padding: 5px 10px;
     border-radius: 20px;
     background-color: rgb(74, 72, 72);
 }
+
+button:hover{
+    color: gray;
+}
+
 header {
     padding-top: 0px;
     height: 60px;
@@ -30,11 +43,12 @@ header {
 }
 
 
-form > label {
+form>label {
     display: block;
 }
 
-form > input, form > textarea {
+form>input,
+form>textarea {
     width: 100%;
     box-sizing: border-box;
 }
