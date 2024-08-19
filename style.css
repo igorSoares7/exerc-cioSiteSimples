@@ -1,0 +1,40 @@
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+} main {
+    padding: 30px 200px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: inline-block;
+
+}
+
+a:hover{
+    color: gray;
+}
+
+button{
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(74, 72, 72);
+}
+header {
+    padding-top: 0px;
+    height: 60px;
+    background-color: rgb(74, 72, 72)
+}
+
+
+form > label {
+    display: block;
+}
+
+form > input, form > textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
